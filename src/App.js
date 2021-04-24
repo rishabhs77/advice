@@ -27,19 +27,6 @@ function App() {
     
   };
 
-  /*const fetchAdvice = async () => {
-    try {
-      const response = await fetch("https://api.adviceslip.com/advice");
-      const data = await response.json();
-      const {advice}=data.slip;
-      console.log(advice)
-
-    } catch (error) {
-      console.log(error); 
-
-    }
-  };*/
-
   return (
     <div className="App">
       <div className="card">
